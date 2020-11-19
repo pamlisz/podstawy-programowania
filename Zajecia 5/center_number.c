@@ -13,8 +13,8 @@ void display(int number){
     if(WIDTH-number_length <= 0)
         printf(".%d.", number);
     else{
-        int number = (WIDTH-number_length)/2;
-        printf(".%*s%d%*s.",number, " ", a, number, " ");
+        int space = (WIDTH-number_length)/2;
+        printf(".%*s%d%*s.",space, " ", number, space, " ");
     }
 }
 
